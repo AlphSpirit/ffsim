@@ -3,7 +3,7 @@
     <div class="banner">
       <div class="overlay"></div>
       <div class="container">
-        A Final Fantasy® XIV Rotation Simulation Engine
+        A FINAL FANTASY® XIV Rotation Simulation Engine
       </div>
     </div>
     <div class="container">
@@ -17,6 +17,11 @@
           <div class="title">Samurai added! - January 20th, 2021</div>
           <div class="content">Samurai has been added to the simulation!</div>
         </div>
+      </div>
+      <div class="disclaimer">
+        <div class="subtitle">Dislaimer</div>
+        <p>FINAL FANTASY® is a registered trademark of Square Enix Holdings Co., Ltd.</p>
+        <p>The FFSIM team has no affiliation whatsoever with Square Enix or FINAL FANTASY®.</p>
       </div>
     </div>
   </div>
