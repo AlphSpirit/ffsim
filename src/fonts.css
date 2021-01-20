@@ -4,6 +4,11 @@
 }
 @font-face {
   font-family: "Open Sans";
+  font-style: italic;
+  src: url("fonts/SourceSansPro-Italic.ttf");
+}
+@font-face {
+  font-family: "Open Sans";
   font-weight: bold;
   src: url("fonts/SourceSansPro-Bold.ttf");
 }

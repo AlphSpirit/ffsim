@@ -1,10 +1,8 @@
 <template>
   <AppHeader />
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="app-content">
+    <router-view/>
   </div>
-  <router-view/>
 </template>
 
 <script>
@@ -35,7 +33,7 @@ a, .alink {
   text-decoration: none;
   outline: 0;
   &:hover {
-    opacity: 0.6;
+    opacity: 0.7;
   }
 }
 .container {
@@ -44,5 +42,14 @@ a, .alink {
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+#app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .app-content {
+    flex-grow: 1;
+    overflow-y: auto;
+  }
 }
 </style>

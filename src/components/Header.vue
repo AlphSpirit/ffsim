@@ -6,6 +6,7 @@
       </div>
       <div class="links">
         <router-link class="link" to="/">Home</router-link>
+        <router-link class="link" to="/simulate">Simulate</router-link>
         <router-link class="link" to="/about">About</router-link>
       </div>
       <div class="grow"></div>
@@ -28,9 +29,11 @@ export default {
 
 <style lang="scss" scoped>
 #header {
-  background-color: #28323e;
+  background-color: #28303e;
   height: 52px;
   box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
 }
 .container {
   height: 100%;
