@@ -1,4 +1,4 @@
-# FFSIM
+# ffsim
 A Final Fantasy® XIV Rotation Simulation Engine
 
 ## Project setup
