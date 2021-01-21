@@ -84,7 +84,7 @@ export default {
   },
   methods: {
     simulate() {
-      console.log(this.engine);
+      this.engine.start();
     }
   }
 }

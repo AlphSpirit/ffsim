@@ -26,11 +26,11 @@ export class Stats {
   }
 
   get CriticalHitDamage() {
-    return Math.floor(200 * (this.criticalHit - 380) / 3300 + 1400) / 1000;
+    return Math.floor(200 * (this.criticalHit - 380) / 3300 + 1400);
   }
 
   get DeterminationDamage() {
-    return Math.floor(130 * (this.determination - 380) / 3300 + 1000) / 1000;
+    return Math.floor(130 * (this.determination - 340) / 3300 + 1000);
   }
 
   get DirectHitChance() {
@@ -39,6 +39,14 @@ export class Stats {
 
   get DirectHitDamage() {
     return 1.25;
+  }
+
+  get AttackDamage() {
+    return Math.floor(165 * (this.dexterity - 340) / 340) + 100;
+  }
+
+  get WeaponDamage() {
+    return Math.floor(340 * 115 / 1000 + this.weaponPhysicalDamage);
   }
 
 }
