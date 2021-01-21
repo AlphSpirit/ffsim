@@ -1,7 +1,8 @@
 .DS_Store
 node_modules
 /dist
-
+/build
+src/Engine.js
 
 # local env files
 .env.local

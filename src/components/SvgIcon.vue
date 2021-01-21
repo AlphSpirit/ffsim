@@ -5,6 +5,8 @@
 <script>
 import Axios from "axios";
 
+let cache = new Map();
+
 export default {
   name: "SvgIcon",
   data() {
@@ -22,10 +24,13 @@ export default {
   },
   methods: {
     async load() {
+      if (cache.has(this.src)) {
+        this.inner = cache.get(this.src);
+        return;
+      }
       let response = await Axios.get(this.src);
-      console.log(response.data);
       this.inner = response.data;
-      console.log(this.inner);
+      cache.set(this.src, response.data);
     }
   }
 }

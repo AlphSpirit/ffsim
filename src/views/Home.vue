@@ -59,6 +59,7 @@ export default {
   font-size: 24px;
   margin-top: 20px;
   margin-bottom: 10px;
+  line-height: 1;
 }
 .post {
   background-color: #1e242f;

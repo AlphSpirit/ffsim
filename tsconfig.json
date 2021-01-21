@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "moduleResolution": "node",
+    "target": "es6",
+    "downlevelIteration": true,
+    "skipLibCheck": true
+  }
+}

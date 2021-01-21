@@ -52,4 +52,40 @@ a, .alink {
     overflow-y: auto;
   }
 }
+.input-group {
+  display: flex;
+  flex-direction: column;
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  label {
+    opacity: 0.8;
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  input {
+    background-color: #28303e;
+    border: 1px solid #3c485d;
+    font-size: 18px;
+    color: #eee;
+    padding: 4px 8px;
+    outline: none !important;
+    transition: border-color 0.1s ease;
+    &:active, &:focus {
+      border-color: #63789c;
+    }
+  }
+}
+.btn {
+  background-color: #28303e;
+  border: 1px solid #3c485d;
+  padding: 5px 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.1s ease;
+  &:hover {
+    box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.2);
+    border-color: #63789c;
+  }
+}
 </style>

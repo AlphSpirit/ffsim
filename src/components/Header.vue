@@ -2,7 +2,7 @@
   <div id="header">
     <div class="container">
       <div class="logo">
-        <router-link to="/">FFSIM</router-link>
+        FFSIM
       </div>
       <div class="links">
         <router-link class="link" to="/">Home</router-link>
@@ -43,7 +43,6 @@ export default {
 .logo {
   font-weight: bold;
   font-size: 24px;
-  cursor: pointer;
   margin-right: 14px;
 }
 .grow {
@@ -57,14 +56,14 @@ export default {
     margin-right: 6px;
   }
   &.router-link-active {
-    color: #00aaff;
+    color: #4d8eff;
   }
 }
 .links {
   .link {
     padding: 14px;
     &.router-link-active {
-      color: #00aaff;
+      color: #4d8eff;
     }
   }
 }
